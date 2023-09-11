@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: rgba(3, 91, 255, 0.17);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+form {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  gap: 10px;
+}
+input {
+  padding: 10px;
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: rgba(4, 4, 4, 0.83);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: whitesmoke;
+}
+
+label {
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background: white;
+  color: black;
+  border: none;
+  font-size: 16px;
+}
+input:focus {
+  outline: none;
+  border: 1px Solid chartreuse;
+  border-radius: 4px;
+}

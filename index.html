@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex">
+        <h1>Login Here</h1>
+        <form name="form" onsubmit="return vali()">
+          <label for="username">Username</label>
+          <input type="text" name="first" placeholder="Username" id="user" />
+          <label for="email"> Email </label>
+          <input
+            type="email"
+            name="second"
+            placeholder="email@email.com"
+            id="email"
+          />
+          <label for="mobile"> Mobile Number</label>
+          <input type="tel" name="third" placeholder="1234567890" id="phone" />
+          <br /><br />
+          <button>Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
