@@ -1,6 +1,6 @@
 function vali() {
   nam = /^[A-Za-z]{5,9}$/;
-  email = /^[A-Za-z_.-0-9]+@[a-zA-Z]+.[a-zA-Z]{2,3}$/;
+  email = /^[A-Za-z0-9_.-]+@[a-zA-Z]+.[a-zA-Z]{2,3}$/;
   mob = /^[0-9]{10}$/;
 
   let inputElement = document.getElementById("user");
