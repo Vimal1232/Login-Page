@@ -13,7 +13,7 @@ function vali() {
       inputElement.style.border = "1px solid red";
     });
     inputElement.addEventListener("blur", function () {
-      inputElement.style.borderColor = "";
+      inputElement.style.border = "";
     });
     document.form.first.focus(nam);
     return false;
@@ -22,12 +22,18 @@ function vali() {
     inputElement2.addEventListener("focus", function () {
       inputElement2.style.border = "1px solid red";
     });
+    inputElement2.addEventListener("blur", function () {
+      inputElement2.style.border = "";
+    });
     document.form.second.focus(email);
     return false;
   } else if (document.form.third.value.search(mob) == -1) {
     alert("I Need A Mobile number , Boi ");
     inputElement3.addEventListener("focus", function () {
       inputElement3.style.border = "1px solid red";
+    });
+    inputElement3.addEventListener("blur", function () {
+      inputElement3.style.border = "";
     });
     document.form.third.focus(mob);
     return false;
